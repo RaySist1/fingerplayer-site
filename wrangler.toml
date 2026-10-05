@@ -1,0 +1,12 @@
+name = "fingerplayer-site"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+main = "worker/index.js"
+assets = { directory = "./dist", binding = "ASSETS" }
+
+[vars]
+# Optional API keys (set in Cloudflare dashboard or here):
+# TMDB_API_KEY = ""
+# OPENSUBTITLES_API_KEY = ""
+# INTRODB_API_KEY = ""
